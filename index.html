@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Meteo-iPad</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="overlay">
+
+<header>
+
+<div class="clock">
+
+<div id="time">00:00</div>
+
+<div id="date">Chargement...</div>
+
+</div>
+
+<div class="location">
+
+<div id="city">Cosne-sur-Loire</div>
+
+<div id="description">Chargement...</div>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="current-weather">
+
+<img id="icon" src="" alt="Météo">
+
+<div id="temp">--°</div>
+
+</section>
+
+<section class="infos">
+
+<div class="card">
+<span>💨 Vent</span>
+<strong id="wind">-- km/h</strong>
+</div>
+
+<div class="card">
+<span>💧 Humidité</span>
+<strong id="humidity">-- %</strong>
+</div>
+
+<div class="card">
+<span>🌡️ Pression</span>
+<strong id="pressure">----</strong>
+</div>
+
+<div class="card">
+<span>😊 Ressenti</span>
+<strong id="feels">--°</strong>
+</div>
+
+<div class="card">
+<span>🌅 Soleil</span>
+<strong id="sun">--:--</strong>
+</div>
+
+<div class="card">
+<span>☀️ UV</span>
+<strong id="uv">--</strong>
+</div>
+
+</section>
+
+<section class="forecast">
+
+<h2>Prochaines heures</h2>
+
+<div id="hourlyForecast"></div>
+
+</section>
+
+<section class="forecast">
+
+<h2>7 prochains jours</h2>
+
+<div id="dailyForecast"></div>
+
+</section>
+
+</main>
+
+<footer>
+
+<div id="updated">
+
+Dernière mise à jour...
+
+</div>
+
+</footer>
+
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
