@@ -327,3 +327,59 @@ footer{
     border-radius:10px;
 
 }
+/* ===== HEADER ===== */
+
+.top{
+    display:grid;
+    grid-template-columns:1fr 1.4fr 1fr;
+    align-items:center;
+
+    padding:40px;
+}
+
+.left{
+    text-align:left;
+}
+
+.center{
+    text-align:center;
+}
+
+.right{
+    text-align:right;
+}
+
+.time{
+    font-size:90px;
+    font-weight:700;
+    line-height:1;
+}
+
+.date{
+    font-size:34px;
+    opacity:.9;
+    margin-top:10px;
+}
+
+.city{
+    font-size:54px;
+    font-weight:600;
+}
+
+.bigIcon{
+    width:180px;
+    height:180px;
+}
+
+.temperature{
+    font-size:120px;
+    font-weight:700;
+    line-height:1;
+}
+
+.description{
+    font-size:34px;
+    opacity:.9;
+    margin-top:10px;
+}
+
